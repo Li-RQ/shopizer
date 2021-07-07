@@ -3,7 +3,7 @@
 <%@ taglib uri="http://www.springframework.org/tags" prefix="s" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 
-<%@ page session="false" %>
+<jsp:directive.page session="false"/>
 
     <!-- specific js files -->
     <!-- do only change the list of js files -->
